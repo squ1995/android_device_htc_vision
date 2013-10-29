@@ -105,9 +105,6 @@ Passion has no keyboard so all values are zero.
         <item>255</item>
     </integer-array>
 
-    <!-- Default keyboard backlight level (matches config_buttonBrightnessSettingDefault) -->
-    <integer name="config_keyboardBrightnessSettingDefault">255</integer>
-
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not 
          specified -->
     <string name="default_wallpaper_component">@null</string>
