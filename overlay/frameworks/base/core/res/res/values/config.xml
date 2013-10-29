@@ -105,6 +105,9 @@ Passion has no keyboard so all values are zero.
         <item>255</item>
     </integer-array>
 
+    <!-- Default keyboard backlight level (matches config_buttonBrightnessSettingDefault) -->
+    <integer name="config_keyboardBrightnessSettingDefault">255</integer>
+
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not 
          specified -->
     <string name="default_wallpaper_component">@null</string>
@@ -205,12 +208,10 @@ Passion has no keyboard so all values are zero.
              4 - Menu
              8 - Search
             16 - App switch
+            32 - Camera
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">15</integer>
-
-    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
-    <bool name="config_cellBroadcastAppLinks">true</bool>
+    <integer name="config_deviceHardwareKeys">47</integer>
 
     <!-- Enables or disables fading edges when marquee is enabled in TextView. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
@@ -220,4 +221,7 @@ Passion has no keyboard so all values are zero.
 
      <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
      <bool name="config_intrusiveBatteryLed">true</bool>
+     
+     <!-- We can change battery LED color (orange/amber/green) -->
+     <bool name="config_multiColorBatteryLed">true</bool>
 </resources>
