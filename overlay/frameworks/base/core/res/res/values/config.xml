@@ -224,4 +224,7 @@ Passion has no keyboard so all values are zero.
      
      <!-- We can change battery LED color (orange/amber/green) -->
      <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- LED Flashlight -->
+    <bool name="config_enableTorch">true</bool>
 </resources>
