@@ -15,11 +15,9 @@
 #
 # Russian keyboard layout.
 # This is a Russian keyboard layout for HTC Desire Z phone.
-# (c) NeverGone, January 25, 2013. Thanks to hellevgen, nmusatov, Corias.
+# (c) NeverGone, November 7, 2012. Thanks to hellevgen.
 #
 # Changes:
-# Jan 25, 2013
-# -- trying to add multi-tap functionality.
 # Nov 7, 2012
 # -- fixed comma/period being mixed up in English layout
 # -- new feature: pressing Shift+Search will interpret four characters preceding the cursor as Unicode code point number.
@@ -132,15 +130,6 @@ key O              {
 	alt: '9'       
 	shift+alt:'\u0445'       
 }
-# EXPERIMENTS STARTS HERE
-key OO              {
-	label:'\u0445'       
-	base:'\u0445'       
-	shift, capslock:'\u0446'       
-	alt: '9'       
-	shift+alt:'\u0445'       
-}
-# EXPERIMENT ENDS HERE
 key P              {
 	label:'\u0417'       
 	base:'\u0437'       
